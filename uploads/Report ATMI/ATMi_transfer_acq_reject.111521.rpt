@@ -1,0 +1,842 @@
+PAGE:   1                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:08
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1002) Maybank
+BENEFICIARY F.I. NO.   : (1094) BCA
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01000809  483432 / 007717  0005104819801644292  3395  15/11/21  17:44:01  PMT SA          8715341120             375,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000809  483520 / 007781  0005104819801644292  3646  15/11/21  17:45:03  PMT SA          8715341120             350,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000809  483749 / 008075  0005104819801644292  4330  15/11/21  17:48:27  PMT SA          8715341120              20,000      55        INCORRECT PIN            CUST       I                    
+   01000809  483769 / 008091  0005104819801644292  4385  15/11/21  17:48:41  PMT SA          8715341120              20,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         4 TRANSACTIONS, PAGE TOTAL                                 765,000
+                                                         4 TRANSACTIONS, BANK TOTAL                                 765,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    4   PROC :     0   TECH :     0   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:   2                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:08
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1003) Permata
+BENEFICIARY F.I. NO.   : (1003) Permata
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01000452  456635 / 000306  0004262543292632290  2236  15/11/21  10:23:40  PMT SA          4118630004             200,000      51        INSUFFICIENT FUNDS       CUST       I  0134118630004     
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         1 TRANSACTIONS, PAGE TOTAL                                 200,000
+                                                         1 TRANSACTIONS, BANK TOTAL                                 200,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    1   PROC :     0   TECH :     0   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:   3                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:08
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1003) Permata
+BENEFICIARY F.I. NO.   : (1069) ArtaJasa
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01001191  457978 / 005389  0005893851240325972  6115  15/11/21  10:43:03  PMT SA     367501020992534             300,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000834  472548 / 009957  0004640053093499314  0243  15/11/21  15:00:27  PMT SA     033101095227505              36,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         2 TRANSACTIONS, PAGE TOTAL                                 336,000
+                                                         2 TRANSACTIONS, BANK TOTAL                                 336,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    2   PROC :     0   TECH :     0   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:   4                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:08
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1003) Permata
+BENEFICIARY F.I. NO.   : (1094) BCA
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01000335  454174 / 024626  0004640053084860722  5124  15/11/21  09:49:55  PMT SA          5725210661           1,640,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000451  469861 / 025334  0004640053096067050  2013  15/11/21  14:06:37  PMT SA          1091992146               5,000      13        INVALID AMOUNT           CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         2 TRANSACTIONS, PAGE TOTAL                               1,645,000
+                                                         2 TRANSACTIONS, BANK TOTAL                               1,645,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    2   PROC :     0   TECH :     0   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:   5                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:08
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1003) Permata
+BENEFICIARY F.I. NO.   : (1107) BNI
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01000285  465704 / 006640  0004640053083715497  9221  15/11/21  12:47:50  PMT SA          1298146271             100,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         1 TRANSACTIONS, PAGE TOTAL                                 100,000
+                                                         1 TRANSACTIONS, BANK TOTAL                                 100,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    1   PROC :     0   TECH :     0   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:   6                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:08
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1008) Panin
+BENEFICIARY F.I. NO.   : (1069) ArtaJasa
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01000249  453769 / 015516  0005264140014935161  3871  15/11/21  09:43:59  PMT SA        760385795200           8,460,000      56        NO CARD RECORD           CUST       I                    
+   01001375  485824 / 019462  0006018740003818950  0267  15/11/21  18:22:52  PMT SA     204501005547504             270,000      05        DO NOT HONOUR            TECH       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         2 TRANSACTIONS, PAGE TOTAL                               8,730,000
+                                                         2 TRANSACTIONS, BANK TOTAL                               8,730,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    1   PROC :     0   TECH :     1   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:   7                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1008) Panin
+BENEFICIARY F.I. NO.   : (1094) BCA
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01001133  444570 / 014754  0006018740006110009  6986  15/11/21  06:51:44  PMT SA          6040181863           5,100,000      05        DO NOT HONOUR            TECH       I                    
+   01001258  495329 / 020069  0006018740006204208  8841  15/11/21  20:22:58  PMT SA          4480438634             280,000      05        DO NOT HONOUR            TECH       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         2 TRANSACTIONS, PAGE TOTAL                               5,380,000
+                                                         2 TRANSACTIONS, BANK TOTAL                               5,380,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    0   PROC :     0   TECH :     2   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:   8                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1013) CCBI
+BENEFICIARY F.I. NO.   : (1094) BCA
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01000679  458093 / 031578  0006064374100705853  6414  15/11/21  10:44:22  PMT SA          6820433627           2,919,600      62        RESTRICTED CARD          CUST       I                    
+   01000679  458206 / 031585  0006064374100705853  6763  15/11/21  10:45:59  PMT SA          6820433627           2,900,000      62        RESTRICTED CARD          CUST       I                    
+   01000679  468481 / 032002  0006064374100705853  7712  15/11/21  13:39:40  PMT SA          6820433627           2,900,000      62        RESTRICTED CARD          CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         3 TRANSACTIONS, PAGE TOTAL                               8,719,600
+                                                         3 TRANSACTIONS, BANK TOTAL                               8,719,600
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    3   PROC :     0   TECH :     0   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:   9                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1033) DBS
+BENEFICIARY F.I. NO.   : (1033) DBS
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01000228  490006 / 032562  0004602380301008009  2799  15/11/21  19:10:15  PMT SA    5410701030430165           6,370,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         1 TRANSACTIONS, PAGE TOTAL                               6,370,000
+                                                         1 TRANSACTIONS, BANK TOTAL                               6,370,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    1   PROC :     0   TECH :     0   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  10                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1065) BTN
+BENEFICIARY F.I. NO.   : (1003) Permata
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01001379  006079 / 013631  0006221008213889317  7433  15/11/21  18:08:16  PMT SA          1237590011             250,000      12        INVALID TRANSACTION      CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         1 TRANSACTIONS, PAGE TOTAL                                 250,000
+                                                         1 TRANSACTIONS, BANK TOTAL                                 250,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    1   PROC :     0   TECH :     0   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  11                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1065) BTN
+BENEFICIARY F.I. NO.   : (1069) ArtaJasa
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01000401  006847 / 032166  0006221008303848488  9129  15/11/21  07:13:35  PMT SA     424901000794500             250,000      75        PIN RETRY EXCEEDED       CUST       I                    
+   01000401  006849 / 032214  0006221008303848488  9298  15/11/21  07:14:58  PMT SA     424901000794500             250,000      75        PIN RETRY EXCEEDED       CUST       I                    
+   01000287  004291 / 003055  0004215707300287888  0350  15/11/21  08:30:17  PMT SA     372901000927508             150,000      55        INCORRECT PIN            CUST       I                    
+   01000437  004220 / 009240  0004215708101184068  6634  15/11/21  09:57:20  PMT SA    2849085883490136           1,000,000      55        INCORRECT PIN            CUST       I                    
+   01002177  000610 / 013952  0006221008201640284  7184  15/11/21  10:48:00  PMT SA     316601023878536             100,000      55        INCORRECT PIN            CUST       I                    
+   01000372  002348 / 030809  0006221006900538767  5960  15/11/21  14:32:01  PMT SA       1630003980508             800,000      04        PICK-UP                  CACU       -                    
+   01000919  002718 / 001999  0006221006500351488  4469  15/11/21  15:28:06  PMT SA          7323585273           4,500,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001379  006049 / 004242  0004215708102709871  0052  15/11/21  16:00:03  PMT SA     668901021132535             200,000      55        INCORRECT PIN            CUST       I                    
+   01001654  004566 / 004565  0006221008212336849  0854  15/11/21  16:04:28  PMT SA     635601001923537             500,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01001351  000454 / 005437  0004215707300108480  3143  15/11/21  16:15:53  PMT SA     206601002977530           9,700,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000249  006916 / 005592  0004215708122185557  3627  15/11/21  16:18:07  PMT SA       1550007058202           3,000,000      55        INCORRECT PIN            CUST       I                    
+   01001670  008126 / 007265  0004215708111521812  8573  15/11/21  16:40:59  PMT SA    2849081281864457              20,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000245  004550 / 014392  0004215708121599584  9487  15/11/21  18:19:19  PMT SA     208301019865508             450,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                        13 TRANSACTIONS, PAGE TOTAL                              20,920,000
+                                                        13 TRANSACTIONS, BANK TOTAL                              20,920,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :   12   PROC :     0   TECH :     0   CUST-CAPT :     1   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  12                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1065) BTN
+BENEFICIARY F.I. NO.   : (1094) BCA
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01001128  006241 / 006345  0004215708123409162  8805  15/11/21  09:17:54  PMT SA          4930493789             200,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000671  002553 / 012489  0006221008300028191  3905  15/11/21  10:32:16  PMT SA          7020064778          10,000,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000840  006468 / 015287  0004215708115552847  0410  15/11/21  11:03:57  PMT SA          1342367989              30,000      05        DO NOT HONOUR            TECH       I  123               
+   01000840  006471 / 015795  0004215708115552847  1627  15/11/21  11:10:17  PMT SA          1342367989              20,000      05        DO NOT HONOUR            TECH       I  123               
+   01000429  004011 / 023216  0004215708121820196  9010  15/11/21  12:46:26  PMT SA          8105740162             268,006      05        DO NOT HONOUR            TECH       I                    
+   01001662  004160 / 024703  0004215708100901413  2220  15/11/21  13:06:38  PMT CA          6260046045              75,000      25        UNABLE TO LOCATE REC     TECH       -                    
+   01001666  002796 / 016838  0004215708100376863  8092  15/11/21  18:52:00  PMT SA          5390541131          10,000,000      55        INCORRECT PIN            CUST       I  5390541131        
+   01001666  002800 / 016971  0004215708100376863  8487  15/11/21  18:53:37  PMT SA          5390541131           2,400,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000992  008650 / 019787  0006221008204359098  8332  15/11/21  19:32:56  PMT SA          2450312188             270,000      05        DO NOT HONOUR            TECH       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         9 TRANSACTIONS, PAGE TOTAL                              23,263,006
+                                                         9 TRANSACTIONS, BANK TOTAL                              23,263,006
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    4   PROC :     0   TECH :     5   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  13                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1065) BTN
+BENEFICIARY F.I. NO.   : (1107) BNI
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01000451  004351 / 010988  0004215708126532317  1157  15/11/21  10:18:45  PMT SA          0978704368             200,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000451  004354 / 011237  0004215708126532317  1648  15/11/21  10:21:00  PMT SA          0978704368             100,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001598  006086 / 014146  0006221008208561160  8802  15/11/21  18:15:50  PMT SA          0805956675             150,000      12        INVALID TRANSACTION      CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         3 TRANSACTIONS, PAGE TOTAL                                 450,000
+                                                         3 TRANSACTIONS, BANK TOTAL                                 450,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    3   PROC :     0   TECH :     0   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  14                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1074) Mayora
+BENEFICIARY F.I. NO.   : (1069) ArtaJasa
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01000883  458258 / 000831  0006392982500535374  6909  15/11/21  10:46:40  PMT SA     083801071292534           5,100,000      55        INCORRECT PIN            CUST       I  0707              
+   01000171  476657 / 001604  0006392982500356342  2938  15/11/21  16:14:52  PMT SA       1680055555005           9,150,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000171  476820 / 001614  0006392980800001260  3426  15/11/21  16:17:08  PMT SA       1680055555005           9,150,000      63        ON2 SECURITY VIOLATION   CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         3 TRANSACTIONS, PAGE TOTAL                              23,400,000
+                                                         3 TRANSACTIONS, BANK TOTAL                              23,400,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    3   PROC :     0   TECH :     0   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  15                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1094) BCA
+BENEFICIARY F.I. NO.   : (1002) Maybank
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01002161  456914 / 012788  0006019002675937082  2965  15/11/21  10:27:31  PMT SA          2029000100           1,554,500      51        INSUFFICIENT FUNDS       CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         1 TRANSACTIONS, PAGE TOTAL                               1,554,500
+                                                         1 TRANSACTIONS, BANK TOTAL                               1,554,500
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    1   PROC :     0   TECH :     0   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  16                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1094) BCA
+BENEFICIARY F.I. NO.   : (1003) Permata
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01001782  455853 / 000827  0006019001072898913  0003  15/11/21  10:13:28  PMT SA          4127345592           1,067,500      51        INSUFFICIENT FUNDS       CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         1 TRANSACTIONS, PAGE TOTAL                               1,067,500
+                                                         1 TRANSACTIONS, BANK TOTAL                               1,067,500
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    1   PROC :     0   TECH :     0   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  17                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1094) BCA
+BENEFICIARY F.I. NO.   : (1068) Rintis
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01002148  463108 / 030420  0005307952032603996  1127  15/11/21  12:03:00  PMT SA        900539521115           1,550,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01002148  463227 / 032294  0005260512023865643  1460  15/11/21  12:04:52  PMT SA        900539521115           1,550,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01002148  463460 / 003183  0005307952032603988  2189  15/11/21  12:08:42  PMT SA        900539521115           1,550,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01002148  463596 / 004922  0006019008509147889  2522  15/11/21  12:10:30  PMT SA        900539521115           1,550,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001006  478868 / 005223  0006019007547173311  9559  15/11/21  16:45:33  PMT SA   90060088472111033             145,000      12        INVALID TRANSACTION      CUST       I  1                 
+   01000492  484447 / 021447  0006019002646204737  6287  15/11/21  18:00:17  PMT SA          7123740526          50,000,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000492  484475 / 022111  0006019002646204737  6381  15/11/21  18:01:04  PMT SA          7123740526          25,000,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         7 TRANSACTIONS, PAGE TOTAL                              81,345,000
+                                                         7 TRANSACTIONS, BANK TOTAL                              81,345,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    7   PROC :     0   TECH :     0   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  18                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1094) BCA
+BENEFICIARY F.I. NO.   : (1069) ArtaJasa
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01000662  445532 / 013230  0006019001689577801  9704  15/11/21  07:18:31  PMT SA       1280005601973          10,000,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I  2                 
+   01001162  448151 / 005261  0006019005005909317  7336  15/11/21  08:11:37  PMT SA     589101022650536              30,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001162  448205 / 005853  0006019005005909317  7482  15/11/21  08:12:33  PMT SA     589101022650536              25,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001162  448252 / 006358  0006019005005909317  7605  15/11/21  08:13:26  PMT SA     589101022650536              20,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01002053  455732 / 032028  0006019008500088348  9628  15/11/21  10:11:39  PMT SA     013901069694502           1,700,000      55        INCORRECT PIN            CUST       I                    
+   01001101  460311 / 022487  0006019009505169216  2945  15/11/21  11:17:00  PMT SA     002601001600304          34,100,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01001101  460506 / 025143  0006019009505169216  3533  15/11/21  11:20:16  PMT SA     002601001600304          32,100,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000339  462349 / 019162  0005379412078850590  9003  15/11/21  11:50:31  PMT SA     167401009567502           6,000,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01001156  463468 / 003266  0006019005016727195  2207  15/11/21  12:08:47  PMT SA     317101028211538             170,000      55        INCORRECT PIN            CUST       I                    
+   01001700  464442 / 019117  0005379412080534760  5356  15/11/21  12:26:04  PMT SA     466201015325532           1,700,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01002264  465215 / 031499  0005260512019909124  7689  15/11/21  12:38:57  PMT SA       1330018481150          38,250,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01002264  465331 / 000922  0005260512019909124  8039  15/11/21  12:41:05  PMT SA       1330018481150          13,250,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01001073  466252 / 025046  0005260512023040528  0964  15/11/21  12:58:53  PMT SA     008301001216567          17,700,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01001073  466295 / 026880  0005260512023040528  1105  15/11/21  12:59:55  PMT SA     008301001216567          20,000,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000325  470851 / 021688  0005379412046576624  5259  15/11/21  14:27:32  PMT SA       1120005647289             200,000      05        DO NOT HONOUR            TECH       I                    
+   01001277  471182 / 009965  0006019002615272806  6223  15/11/21  14:33:39  PMT CA     016601071623502             300,000      05        DO NOT HONOUR            TECH       I                    
+   01000599  471449 / 019408  0005379412056550428  7121  15/11/21  14:39:24  PMT SA       1730007671010             150,000      55        INCORRECT PIN            CUST       I                    
+   01000352  471963 / 001797  0005379412029545711  8535  15/11/21  14:48:43  PMT SA       1730007009526           1,000,000      55        INCORRECT PIN            CUST       I  1730007009526     
+   01001553  473108 / 031968  0005260512020545339  1855  15/11/21  15:11:29  PMT SA     115601015761502             150,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001553  473179 / 001237  0005260512020545339  2052  15/11/21  15:12:46  PMT SA     115601015761502             125,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001693  476799 / 001594  0005379412049525628  3362  15/11/21  16:16:54  PMT SA     406601000851504          39,000,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01001242  476925 / 003150  0006019007548404566  3760  15/11/21  16:18:43  PMT CA     731601002036508             500,000      05        DO NOT HONOUR            TECH       I  5                 
+   01001693  476975 / 003813  0005379412049525628  3909  15/11/21  16:19:29  PMT SA     406601000851504          10,000,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000754  478001 / 015921  0006019009503841790  7030  15/11/21  16:33:54  PMT SA       0118850246100             350,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000261  480466 / 010355  0006019007529919020  4512  15/11/21  17:06:46  PMT SA     106601028191505           1,500,000      55        INCORRECT PIN            CUST       I                    
+   01000261  480479 / 010500  0006019007529919020  4554  15/11/21  17:07:00  PMT SA     106601028191505           1,500,000      55        INCORRECT PIN            CUST       I                    
+   01000261  480498 / 010690  0006019007529919020  4614  15/11/21  17:07:16  PMT SA     106601028191505           1,500,000      55        INCORRECT PIN            CUST       I                    
+   01000261  480521 / 010880  0006019007529919020  4669  15/11/21  17:07:30  PMT SA     106601028191505           1,500,000      75        PIN RETRY EXCEEDED       CUST       I                    
+   01000261  481339 / 019054  0006019007529919020  7154  15/11/21  17:17:17  PMT SA     106601028191505           1,500,000      75        PIN RETRY EXCEEDED       CUST       I                    
+   01001939  485033 / 030491  0006019002602040844  7929  15/11/21  18:11:24  PMT SA       1430023322967           1,500,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000217  488920 / 009086  0005307952043325373  9413  15/11/21  18:57:05  PMT SA       1240006690946           2,500,000      55        INCORRECT PIN            CUST       I                    
+   01001890  489289 / 013802  0005379412071818834  0567  15/11/21  19:01:32  PMT SA     033701059507501           1,425,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000278  492027 / 011090  0005260512025920909  9148  15/11/21  19:36:22  PMT SA       9000030752985           3,500,000      55        INCORRECT PIN            CUST       I                    
+   01000669  495531 / 017927  0006019004527796583  9479  15/11/21  20:27:05  PMT SA     421501001307505             500,000      55        INCORRECT PIN            CUST       I                    
+   01000669  495541 / 018126  0006019004527796583  9513  15/11/21  20:27:21  PMT SA     421501001307505             500,000      55        INCORRECT PIN            CUST       I                    
+   01000669  495557 / 018319  0006019004527796583  9567  15/11/21  20:27:39  PMT SA     421501001307505             500,000      55        INCORRECT PIN            CUST       I                    
+   01000669  495582 / 018627  0006019004527796583  9627  15/11/21  20:28:04  PMT SA     421501001307505             500,000      75        PIN RETRY EXCEEDED       CUST       I                    
+   01000730  495591 / 018743  0006019008524029062  9659  15/11/21  20:28:14  PMT CA     411201013839530             400,000      05        DO NOT HONOUR            TECH       I                    
+   01000719  495645 / 019358  0006019007504086522  9809  15/11/21  20:29:07  PMT SA    8099085795691212              60,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000669  495653 / 019437  0006019004527796583  9828  15/11/21  20:29:13  PMT SA     421501001307505             500,000      75        PIN RETRY EXCEEDED       CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                        40 TRANSACTIONS, PAGE TOTAL                             246,205,000
+                                                        40 TRANSACTIONS, BANK TOTAL                             246,205,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :   36   PROC :     0   TECH :     4   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  19                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1094) BCA
+BENEFICIARY F.I. NO.   : (1094) BCA
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01000359  445380 / 012055  0005379412030118508  9346  15/11/21  07:15:21  PMT SA          0620586510              35,063      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000359  445435 / 012517  0005379412030118508  9475  15/11/21  07:16:33  PMT SA          0620586510              30,063      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000401  446077 / 017715  0005307952013194676  1236  15/11/21  07:30:04  PMT SA          6270315818              10,123      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000518  446452 / 020781  0006019002663319244  2293  15/11/21  07:37:24  PMT SA          3461612561             300,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001013  448586 / 010438  0005307952010144740  8644  15/11/21  08:19:58  PMT SA          1011306590             290,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001734  449573 / 022657  0006019007535161898  1508  15/11/21  08:37:29  PMT SA          0261929588             140,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001734  449670 / 023752  0006019007535161898  1794  15/11/21  08:39:12  PMT SA          0261929588             130,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001734  449767 / 024812  0006019007535161898  2066  15/11/21  08:40:49  PMT SA          0261929588              90,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000403  450401 / 032321  0006019001674150739  3908  15/11/21  08:52:05  PMT SA          5240913781             500,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000784  450873 / 004495  0006019002680079078  5211  15/11/21  08:59:20  PMT SA          2465345762                 240      05        DO NOT HONOUR            TECH       I                    
+   01000875  452565 / 024475  0006019007535463229  0150  15/11/21  09:24:51  PMT SA          4061126800           1,500,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001733  453876 / 008750  0006019007544149405  4210  15/11/21  09:45:32  PMT SA          5725667270              35,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001733  453958 / 009814  0006019007544149405  4443  15/11/21  09:46:45  PMT SA          5725667270              20,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000498  454317 / 014379  0006019007519391222  5532  15/11/21  09:52:02  PMT SA          4870588467              30,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000770  454733 / 019324  0005379412068707859  6736  15/11/21  09:57:49  PMT SA          7305017353             110,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000770  454798 / 020088  0005379412068707859  6900  15/11/21  09:58:37  PMT SA          7305017353             100,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001525  454884 / 021300  0005307952059267881  7162  15/11/21  09:59:59  PMT SA          6580150452           2,000,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000637  455242 / 025098  0006019001706546797  8136  15/11/21  10:04:05  PMT SA          1393183008             100,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001203  457286 / 017360  0006019005516760290  4027  15/11/21  10:32:51  PMT SA          3701066829             950,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001474  457979 / 025965  0006019009505706850  6116  15/11/21  10:43:04  PMT SA          8105420729              50,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000706  457982 / 025975  0006019007532323384  6121  15/11/21  10:43:05  PMT SA          8670419909              95,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000921  458022 / 026437  0006019005006157577  6244  15/11/21  10:43:36  PMT SA          0153812532              85,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000921  458073 / 026842  0006019005006157577  6357  15/11/21  10:44:07  PMT SA          0153812532              80,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000699  459389 / 010883  0006019005013850545  0226  15/11/21  11:02:58  PMT SA          3090106251              35,500      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000385  459687 / 014553  0005307952040243470  1078  15/11/21  11:07:26  PMT SA          5775659090             300,000      51        INSUFFICIENT FUNDS       CUST       I  5775659090        
+   01000647  459953 / 017931  0005379413039324832  1867  15/11/21  11:11:32  PMT SA          7772528241              60,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000709  460926 / 031537  0005379413018855061  4854  15/11/21  11:27:35  PMT SA          8810537117              30,000      51        INSUFFICIENT FUNDS       CUST       I  8810537117        
+   01000709  460994 / 032497  0005379413018855061  5039  15/11/21  11:28:46  PMT SA          8810537117              20,000      51        INSUFFICIENT FUNDS       CUST       I  8810537117        
+   01001744  463150 / 031279  0006019007543914650  1286  15/11/21  12:03:50  PMT SA          7650498644           6,000,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001508  464453 / 019273  0006019005518957787  5390  15/11/21  12:26:14  PMT SA          2330394482             500,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001508  464513 / 020106  0006019005518957787  5587  15/11/21  12:27:16  PMT SA          2820288958             250,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001508  464586 / 020988  0006019005518957787  5776  15/11/21  12:28:18  PMT SA          0851280871             150,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000812  464992 / 027318  0006019007535280680  7014  15/11/21  12:35:14  PMT SA          4620917848              35,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000277  466907 / 015074  0005379412046664719  2976  15/11/21  13:10:56  PMT SA          8280458288             100,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000277  466959 / 016721  0005379412046664719  3145  15/11/21  13:11:52  PMT SA          8280458288              95,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000831  467708 / 001861  0006019005019149256  5361  15/11/21  13:24:52  PMT SA          3830919430             150,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001258  468933 / 022131  0006019007533359528  9063  15/11/21  13:47:43  PMT SA          4480573655              50,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000934  469406 / 030335  0006019009504934834  0640  15/11/21  13:57:49  PMT SA          1480995640           4,000,000      12        INVALID TRANSACTION      CUST       I                    
+   01000934  469634 / 001142  0006019009504934834  1322  15/11/21  14:02:05  PMT SA          1480995640           3,000,000      12        INVALID TRANSACTION      CUST       I                    
+   01000618  470493 / 020807  0005260512002592549  4067  15/11/21  14:20:00  PMT SA          3790170228           5,795,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000526  471378 / 017493  0006019007544539910  6944  15/11/21  14:38:19  PMT SA          6281180565              95,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001888  472130 / 007058  0006019002672255066  8972  15/11/21  14:51:57  PMT SA          3460025680             500,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000803  472428 / 015791  0005379413033955193  9859  15/11/21  14:57:54  PMT SA          8380311764              40,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000640  472666 / 021233  0006019001759972650  0603  15/11/21  15:03:02  PMT SA          6510184112              50,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001692  472839 / 024768  0006019005020857939  1081  15/11/21  15:06:16  PMT SA          7111715509             500,000      12        INVALID TRANSACTION      CUST       I                    
+   01001692  472877 / 025922  0006019005020857939  1199  15/11/21  15:07:10  PMT SA          7111715509             500,000      12        INVALID TRANSACTION      CUST       I                    
+   01001734  473110 / 031992  0006019007535161898  1857  15/11/21  15:11:30  PMT SA          0261929588             100,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000734  473618 / 012538  0006019007544879662  3326  15/11/21  15:20:57  PMT SA          6580353892             195,023      51        INSUFFICIENT FUNDS       CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                        48 TRANSACTIONS, PAGE TOTAL                              29,231,012
+
+PAGE:  20                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1094) BCA
+BENEFICIARY F.I. NO.   : (1094) BCA
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01000807  474683 / 031967  0006019008504391029  6737  15/11/21  15:41:49  PMT SA          7630069160             100,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001917  476237 / 027345  0006019008516856779  1662  15/11/21  16:08:43  PMT SA          2010404927             250,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001408  477219 / 006608  0005379413024202555  4616  15/11/21  16:22:50  PMT SA          0954346591              30,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001618  478459 / 021079  0006019005003785420  8394  15/11/21  16:40:15  PMT SA          5930297382              38,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001303  479278 / 030024  0006019007538044018  0704  15/11/21  16:50:40  PMT SA          5465522299              46,060      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000365  479583 / 000532  0005307952054638995  1650  15/11/21  16:54:48  PMT SA          2452705517              90,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000365  479630 / 001017  0005307952054638995  1789  15/11/21  16:55:19  PMT SA          2452705517              80,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001733  480205 / 007528  0006019007544149405  3684  15/11/21  17:03:22  PMT SA          0760150452             170,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001733  480285 / 008429  0006019007544149405  3964  15/11/21  17:04:30  PMT SA          0760150452             165,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001628  481833 / 024094  0005307952061563228  8725  15/11/21  17:23:28  PMT SA          0231465366              45,000      51        INSUFFICIENT FUNDS       CUST       I  0140231465366     
+   01000831  482694 / 000169  0006019005019149256  1269  15/11/21  17:34:21  PMT SA          3830919430              80,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000828  482932 / 002415  0005379412071761752  1929  15/11/21  17:37:13  PMT SA          8255186236              40,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000828  482993 / 003208  0005379412071761752  2128  15/11/21  17:38:10  PMT SA          8255186236              30,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001588  483969 / 014288  0006019008521151711  4962  15/11/21  17:51:42  PMT SA          6805129208              50,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000413  483986 / 014510  0005379412056645038  5009  15/11/21  17:51:56  PMT SA          3790507281             200,000      12        INVALID TRANSACTION      CUST       I                    
+   01000320  484589 / 023650  0005307952056830988  6690  15/11/21  18:03:04  PMT SA          7125394191              30,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000812  484772 / 026196  0006019001751170469  7157  15/11/21  18:06:12  PMT SA          4270230194              85,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000331  486215 / 011894  0005379412057563792  1424  15/11/21  18:27:53  PMT SA          8421175632              40,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01002125  487450 / 025727  0005307952058282923  5315  15/11/21  18:41:52  PMT SA          1750953219           1,685,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000430  488313 / 002339  0005379413050874616  7747  15/11/21  18:50:40  PMT SA          6825402865             270,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001336  489527 / 017020  0006019007529275886  1384  15/11/21  19:04:47  PMT SA          0284056201              50,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001047  490184 / 023648  0005379412076525335  3356  15/11/21  19:12:29  PMT SA          6105181497              10,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001037  490488 / 026347  0006019007532920486  4258  15/11/21  19:15:51  PMT SA          1221395200             200,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001925  491143 / 001325  0005307952052394286  6299  15/11/21  19:24:37  PMT SA          7300336862              40,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001738  491217 / 002407  0005379412077264298  6584  15/11/21  19:25:48  PMT SA          4180531217             250,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001738  491276 / 003202  0005379412077264298  6791  15/11/21  19:26:44  PMT SA          4180531217             200,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000383  491640 / 006656  0005379412057563792  7839  15/11/21  19:30:52  PMT SA          8421175632              50,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001775  492135 / 012203  0005379412028556727  9486  15/11/21  19:37:49  PMT SA          7370520806             100,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000504  492330 / 014179  0005307952054779377  0093  15/11/21  19:40:19  PMT SA          8430498011              45,600      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000504  492434 / 015265  0005307952054779377  0385  15/11/21  19:41:29  PMT SA          8430498011              40,600      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000410  492796 / 019013  0006019005013948216  1366  15/11/21  19:45:39  PMT SA          0380606241              50,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001195  493478 / 026011  0006019008500890081  3458  15/11/21  19:54:40  PMT SA          2402404567              10,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000339  494011 / 032378  0006019009505874260  5155  15/11/21  20:02:36  PMT SA          1320879805             300,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001480  494080 / 000368  0006019005509636275  5356  15/11/21  20:03:37  PMT SA          6145178642             140,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001503  494215 / 001968  0005379412042210046  5710  15/11/21  20:05:29  PMT SA          7111751017          40,395,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000495  494356 / 003746  0006019005519433879  6177  15/11/21  20:07:52  PMT SA          8720790301             697,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000350  494384 / 004192  0005379413040621077  6279  15/11/21  20:08:24  PMT SA          2280205900              85,123      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000350  494427 / 004742  0005379413040621077  6416  15/11/21  20:09:06  PMT SA          2280205900              84,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000350  494528 / 005897  0005379413040621077  6704  15/11/21  20:10:32  PMT SA          2280205900              80,123      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000350  494583 / 006531  0005379413040621077  6869  15/11/21  20:11:21  PMT SA          2280205900              80,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000545  495277 / 014483  0006019008516556775  8717  15/11/21  20:22:12  PMT SA          7005590281             180,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000545  495324 / 014979  0006019008516556775  8832  15/11/21  20:22:54  PMT SA          7005590281             150,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001708  495496 / 017342  0006019005013858027  9365  15/11/21  20:26:15  PMT SA          0541229433              50,000      51        INSUFFICIENT FUNDS       CUST       I  0541229433        
+   01001708  495568 / 018477  0006019005013858027  9587  15/11/21  20:27:49  PMT SA          0541229433              40,000      51        INSUFFICIENT FUNDS       CUST       I  0541229433        
+   01000967  495832 / 021852  0006019005013170217  0384  15/11/21  20:32:32  PMT SA          6760466105              81,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001783  496378 / 030521  0006019008501393689  2024  15/11/21  20:44:53  PMT SA          4140818041           1,268,203      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000606  496669 / 003151  0005379412071796147  2898  15/11/21  20:52:58  PMT SA          8320421048              90,000      51        INSUFFICIENT FUNDS       CUST       I  90000             
+   01000839  497255 / 024130  0006019007537860992  4489  15/11/21  21:13:06  PMT SA          1310680687              19,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                        48 TRANSACTIONS, PAGE TOTAL                              48,309,709
+
+PAGE:  21                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1094) BCA
+BENEFICIARY F.I. NO.   : (1094) BCA
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01001215  497814 / 009497  0006019007534346953  6175  15/11/21  22:00:06  PMT SA          5315202733             347,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000864  497816 / 009566  0005307952062056602  6177  15/11/21  22:00:09  PMT SA          2750488792             280,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001215  497819 / 010352  0006019007534346953  6183  15/11/21  22:00:55  PMT SA          5315202733             341,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         3 TRANSACTIONS, PAGE TOTAL                                 968,000
+                                                        99 TRANSACTIONS, BANK TOTAL                              78,508,721
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :   98   PROC :     0   TECH :     1   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  22                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1094) BCA
+BENEFICIARY F.I. NO.   : (1101) Bank Jago
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01000620  463963 / 015742  0005379413044954110  3660  15/11/21  12:16:57  PMT SA        101043967668           1,500,000      05        DO NOT HONOUR            TECH       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         1 TRANSACTIONS, PAGE TOTAL                               1,500,000
+                                                         1 TRANSACTIONS, BANK TOTAL                               1,500,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    0   PROC :     0   TECH :     1   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  23                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1094) BCA
+BENEFICIARY F.I. NO.   : (1107) BNI
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01001174  452924 / 028969  0005379412067593821  1273  15/11/21  09:30:32  PMT SA          0338228831           1,300,000      55        INCORRECT PIN            CUST       I                    
+   01001444  464723 / 023205  0005379413032390707  6195  15/11/21  12:30:47  PMT SA          0710926444             200,000      55        INCORRECT PIN            CUST       I                    
+   01000905  473549 / 009393  0005379412052538435  3153  15/11/21  15:19:51  PMT SA    9884490878116740           1,177,012      30        MSG FORMAT ERROR         TECH       I  1                 
+   01001503  485187 / 018573  0006019008500284392  8367  15/11/21  18:13:43  PMT SA    8307002020140125           5,003,500      30        MSG FORMAT ERROR         TECH       I                    
+   01001503  485271 / 019336  0006019008500284392  8610  15/11/21  18:14:52  PMT SA    8307002020140125           5,003,500      30        MSG FORMAT ERROR         TECH       I                    
+   01001503  485373 / 020144  0006019008500284392  8903  15/11/21  18:16:23  PMT SA    8307002020140125           5,003,500      30        MSG FORMAT ERROR         TECH       I                    
+   01000508  490828 / 030863  0005379413026449329  5377  15/11/21  19:20:48  PMT SA    9886414910552282             434,000      55        INCORRECT PIN            CUST       I                    
+   01000304  495737 / 001370  0005379412053262316  0074  15/11/21  20:30:45  PMT SA    9884490851359452             300,000      30        MSG FORMAT ERROR         TECH       I                    
+   01000304  495876 / 002693  0005379412053262316  0533  15/11/21  20:33:26  PMT SA    9884490851359452             300,000      30        MSG FORMAT ERROR         TECH       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         9 TRANSACTIONS, PAGE TOTAL                              18,721,512
+                                                         9 TRANSACTIONS, BANK TOTAL                              18,721,512
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    3   PROC :     0   TECH :     6   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  24                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1107) BNI
+BENEFICIARY F.I. NO.   : (1002) Maybank
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01000405  481416 / 018617  0001946903131070450  7435  15/11/21  17:18:21  PMT SA          1102877228           4,400,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         1 TRANSACTIONS, PAGE TOTAL                               4,400,000
+                                                         1 TRANSACTIONS, BANK TOTAL                               4,400,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    1   PROC :     0   TECH :     0   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  25                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1107) BNI
+BENEFICIARY F.I. NO.   : (1003) Permata
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01001621  463446 / 012531  0005371761790096207  2160  15/11/21  12:08:33  PMT SA    8528082213287443           2,200,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         1 TRANSACTIONS, PAGE TOTAL                               2,200,000
+                                                         1 TRANSACTIONS, BANK TOTAL                               2,200,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    1   PROC :     0   TECH :     0   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  26                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1107) BNI
+BENEFICIARY F.I. NO.   : (1028) Sinarmas
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01001506  491176 / 030091  0005264221822489060  6438  15/11/21  19:25:11  PMT SA    8001120000058645             394,000      05        DO NOT HONOUR            TECH       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         1 TRANSACTIONS, PAGE TOTAL                                 394,000
+                                                         1 TRANSACTIONS, BANK TOTAL                                 394,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    0   PROC :     0   TECH :     1   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  27                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1107) BNI
+BENEFICIARY F.I. NO.   : (1065) BTN
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01000282  455336 / 029255  0005264221817771936  8419  15/11/21  10:05:25  PMT SA    0028201560016286             300,000      05        DO NOT HONOUR            TECH       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         1 TRANSACTIONS, PAGE TOTAL                                 300,000
+                                                         1 TRANSACTIONS, BANK TOTAL                                 300,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    0   PROC :     0   TECH :     1   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  28                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1107) BNI
+BENEFICIARY F.I. NO.   : (1069) ArtaJasa
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01001580  446460 / 014702  0001946900300266331  2304  15/11/21  07:37:31  PMT SA       1430016959197             140,000      51        INSUFFICIENT FUNDS       CUST       I  01                
+   01000883  447944 / 028841  0005264222372029827  6707  15/11/21  08:07:38  PMT SA    2849085939116387              90,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000664  453220 / 010334  0001946342440118157  2220  15/11/21  09:35:25  PMT SA     594001017253534             125,000      05        DO NOT HONOUR            TECH       I  123654            
+   01000746  456643 / 008379  0005264222362536427  2264  15/11/21  10:23:51  PMT SA       1300018218498           1,450,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001433  456761 / 009445  0005264222241873132  2568  15/11/21  10:25:24  PMT SA       1430011517776              25,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001433  456819 / 009896  0005264222241873132  2702  15/11/21  10:26:08  PMT SA       1430011517776              20,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001433  456867 / 010240  0005264222241873132  2829  15/11/21  10:26:48  PMT SA       1430011517776              15,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   04200028  460619 / 014581  0001946903110251121  3867  15/11/21  11:22:07  PMT SA        761646339900              40,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001398  461894 / 028166  0001946340190231311  7657  15/11/21  11:42:57  PMT SA     773301014545531           1,000,000      55        INCORRECT PIN            CUST       I                    
+   01001518  466447 / 016426  0001946340810992177  1588  15/11/21  13:02:47  PMT SA     426001013871537              40,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000424  467670 / 031415  0005264220463202865  5239  15/11/21  13:24:07  PMT SA       1190007075136              85,000      55        INCORRECT PIN            CUST       I                    
+   01000424  467677 / 031478  0005264220463202865  5259  15/11/21  13:24:14  PMT SA       1190007075136              85,000      55        INCORRECT PIN            CUST       I                    
+   01002154  468142 / 004512  0001946900530462882  6686  15/11/21  13:33:14  PMT SA     532401010258535             290,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000916  468353 / 006979  0005264221202779247  7287  15/11/21  13:37:07  PMT SA       1760000376135           1,050,000      05        DO NOT HONOUR            TECH       I  1                 
+   01000642  468749 / 011833  0001946340130204022  8495  15/11/21  13:44:23  PMT SA     008301041726506             100,000      55        INCORRECT PIN            CUST       I                    
+   01000642  468763 / 012024  0001946340130204022  8530  15/11/21  13:44:40  PMT SA     008301041726506             100,000      55        INCORRECT PIN            CUST       I                    
+   01001380  469074 / 015945  0001946343110139374  9562  15/11/21  13:50:58  PMT SA       1330015941388           1,300,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000410  475547 / 000077  0001946343130241143  9582  15/11/21  15:57:20  PMT SA        702009805800             300,000      55        INCORRECT PIN            CUST       I  09                
+   01000122  480068 / 007765  0001946343110664710  3210  15/11/21  17:01:13  PMT SA    2849083814766317              20,000      51        INSUFFICIENT FUNDS       CUST       I  888               
+   01000340  481588 / 019979  0001946901370468443  8000  15/11/21  17:20:36  PMT SA        085702735829              35,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000744  481681 / 020636  0001946340340445803  8250  15/11/21  17:21:37  PMT SA     800801005488532           6,000,000      51        INSUFFICIENT FUNDS       CUST       I  800801005488532   
+   01001920  487852 / 005770  0001946341690173409  6421  15/11/21  18:45:47  PMT SA     598101039793532             460,000      55        INCORRECT PIN            CUST       I                    
+   01001535  488013 / 006834  0001946902271448617  6930  15/11/21  18:47:30  PMT SA        085280869595              40,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000490  489386 / 016684  0001946340890033892  0886  15/11/21  19:02:49  PMT SA       1560010281501              15,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000945  490596 / 025523  0005264220193750688  4640  15/11/21  19:17:31  PMT SA     585901028564539           6,000,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000945  490720 / 026617  0005264220193750688  5019  15/11/21  19:19:16  PMT SA     585901028564539           6,000,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000945  490940 / 028391  0005264220193750688  5683  15/11/21  19:22:06  PMT SA     585901028564539           6,000,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000503  491480 / 032448  0005371761250245815  7372  15/11/21  19:29:05  PMT SA     386201015871532             900,000      05        DO NOT HONOUR            TECH       I  386201015871532   
+   01000996  493947 / 018604  0005198932530022776  4978  15/11/21  20:01:44  PMT SA    8099081217550652             250,000      05        DO NOT HONOUR            TECH       I  80                
+   01000268  494309 / 021506  0005264221203557907  6017  15/11/21  20:07:02  PMT SA       0085773852100              75,000      55        INCORRECT PIN            CUST       I                    
+   01000447  495012 / 027479  0005264223130454232  8008  15/11/21  20:18:01  PMT SA     774201006950539             600,000      55        INCORRECT PIN            CUST       I  8888888888888888  
+   01000447  495020 / 027562  0005264223130454232  8032  15/11/21  20:18:11  PMT SA     774201006950539             600,000      51        INSUFFICIENT FUNDS       CUST       I  8888888888888888  
+   01001658  496006 / 004286  0001946340460365716  0948  15/11/21  20:36:38  PMT SA     008001073593537             100,000      51        INSUFFICIENT FUNDS       CUST       I  100000            
+   01001658  496673 / 012365  0001946340460674786  2906  15/11/21  20:53:03  PMT SA     008001073593537             100,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001873  496786 / 013539  0005264221180585871  3190  15/11/21  20:55:22  PMT SA     419301013091538              45,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                        35 TRANSACTIONS, PAGE TOTAL                              33,495,000
+                                                        35 TRANSACTIONS, BANK TOTAL                              33,495,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :   31   PROC :     0   TECH :     4   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  29                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1107) BNI
+BENEFICIARY F.I. NO.   : (1094) BCA
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01001714  443752 / 005024  0001946340440507932  4857  15/11/21  01:57:29  PMT SA          4220079819              35,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000325  449596 / 010394  0005264222372462796  1563  15/11/21  08:37:50  PMT SA          1663041049             350,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000621  452717 / 005235  0001946340690147504  0583  15/11/21  09:27:07  PMT SA          4760389612             550,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000211  459612 / 003698  0005371763080094033  0869  15/11/21  11:06:20  PMT SA          8880280423          10,000,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000211  459676 / 004355  0005371763080094033  1037  15/11/21  11:07:12  PMT SA          8880280423          10,000,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000211  459766 / 005430  0005371763080094033  1305  15/11/21  11:08:43  PMT SA          8880280423          10,000,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000643  460062 / 008501  0005264220744019815  2206  15/11/21  11:13:13  PMT SA          3770659417             100,000      51        INSUFFICIENT FUNDS       CUST       I  100000            
+   01002051  461353 / 022349  0005264222441228707  5982  15/11/21  11:34:02  PMT SA          0170208889           2,000,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000512  462666 / 003869  0005198931810437340  9917  15/11/21  11:55:44  PMT SA          4061292033           2,500,000      05        DO NOT HONOUR            TECH       I                    
+   01000111  466097 / 011466  0005264221301038875  0495  15/11/21  12:55:48  PMT SA          2910753242          10,000,000      05        DO NOT HONOUR            TECH       I                    
+   01000409  469353 / 019761  0001946341790077518  0480  15/11/21  13:56:59  PMT SA          3780352581             550,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001288  469478 / 021169  0005264220022871630  0865  15/11/21  13:59:10  PMT SA          1830845662             878,500      51        INSUFFICIENT FUNDS       CUST       I  1830845662        
+   01001288  469560 / 022077  0005264220022871630  1087  15/11/21  14:00:36  PMT SA          1830845662             870,000      51        INSUFFICIENT FUNDS       CUST       I  1830845662        
+   01001176  474892 / 025117  0005264220042742571  7375  15/11/21  15:45:06  PMT SA          1260340367             600,000      55        INCORRECT PIN            CUST       I                    
+   01001176  474910 / 025315  0005264220042742571  7420  15/11/21  15:45:22  PMT SA          1260340367             600,000      55        INCORRECT PIN            CUST       I                    
+   01001254  475140 / 028314  0005264223120231756  8203  15/11/21  15:50:03  PMT SA          0800489938           3,250,000      05        DO NOT HONOUR            TECH       I                    
+   01002097  477097 / 015217  0005371763110414730  4253  15/11/21  16:21:12  PMT SA          6880154999             500,000      55        INCORRECT PIN            CUST       I                    
+   01000401  477229 / 016399  0005264223111477434  4638  15/11/21  16:22:56  PMT SA          8730504471             865,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000401  477289 / 016835  0005264223111477434  4808  15/11/21  16:23:40  PMT SA          8730504471             860,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000401  477384 / 017538  0005264223111477434  5100  15/11/21  16:24:47  PMT SA          8730504471             850,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001352  478346 / 026196  0001946322530005597  8051  15/11/21  16:38:45  PMT SA          0190430804           1,500,000      53        NO SAVING ACCOUNT        CUST       -                    
+   01001352  478360 / 026273  0001946322530005597  8083  15/11/21  16:38:53  PMT SA          0190430804           1,500,000      53        NO SAVING ACCOUNT        CUST       -                    
+   01000955  478449 / 027031  0001946900132866407  8373  15/11/21  16:40:06  PMT SA          8035159793           1,000,000      55        INCORRECT PIN            CUST       I                    
+   01000949  480388 / 010688  0001946340220245448  4279  15/11/21  17:05:46  PMT SA          6510141413           2,100,000      55        INCORRECT PIN            CUST       I  123456            
+   01000362  481563 / 019734  0006010040462524910  7897  15/11/21  17:20:11  PMT SA          4920989816              25,000      67        CAPTURED CARD            CACU       I                    
+   01001694  483426 / 001360  0005264220614133175  3382  15/11/21  17:43:58  PMT SA          8410658292          17,500,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000480  487446 / 003154  0005264220952901654  5307  15/11/21  18:41:51  PMT SA          7895009687             235,000      55        INCORRECT PIN            CUST       I  1                 
+   01000480  487477 / 003340  0005264220952901654  5394  15/11/21  18:42:08  PMT SA          7895009687             235,000      55        INCORRECT PIN            CUST       I  1                 
+   01000480  487504 / 003462  0005264220952901654  5462  15/11/21  18:42:21  PMT SA          7895009687             235,000      75        PIN RETRY EXCEEDED       CUST       I  1                 
+   01001346  488399 / 009470  0005264222433778248  7984  15/11/21  18:51:38  PMT SA          2872343416             270,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001346  488474 / 009974  0005264222433778248  8175  15/11/21  18:52:20  PMT SA          2872343416             260,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000242  490388 / 023855  0005264220815872233  3941  15/11/21  19:14:35  PMT SA          7295131641             500,000      55        INCORRECT PIN            CUST       I                    
+   01001116  493452 / 014572  0001946341810787716  3375  15/11/21  19:54:18  PMT SA          7411079019              35,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01002193  496465 / 009327  0005264221423790593  2243  15/11/21  20:46:46  PMT SA          7641054619          10,000,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                        34 TRANSACTIONS, PAGE TOTAL                              90,753,500
+                                                        34 TRANSACTIONS, BANK TOTAL                              90,753,500
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :   30   PROC :     0   TECH :     3   CUST-CAPT :     1   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  30                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1107) BNI
+BENEFICIARY F.I. NO.   : (1101) Bank Jago
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01001669  448109 / 001043  0001946341810708704  7201  15/11/21  08:10:44  PMT SA        106482603899             700,000      05        DO NOT HONOUR            TECH       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         1 TRANSACTIONS, PAGE TOTAL                                 700,000
+                                                         1 TRANSACTIONS, BANK TOTAL                                 700,000
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :    0   PROC :     0   TECH :     1   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+PAGE:  31                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1107) BNI
+BENEFICIARY F.I. NO.   : (1107) BNI
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01001714  443756 / 005330  0001946340440507932  4864  15/11/21  02:02:39  PMT SA          1211877859              30,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001714  443758 / 005365  0001946340440507932  4867  15/11/21  02:03:20  PMT SA          1211877859              25,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001461  444620 / 031404  0005198932850223798  7125  15/11/21  06:53:50  PMT SA          1262847723             150,122      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001461  444631 / 031571  0005198932850223798  7174  15/11/21  06:54:28  PMT SA          1262847723             120,122      55        INCORRECT PIN            CUST       I                    
+   01001461  444634 / 031607  0005198932850223798  7189  15/11/21  06:54:39  PMT SA          1262847723             120,122      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000797  447466 / 024713  0005264220571004310  5291  15/11/21  07:58:42  PMT SA          1223143552              75,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01002107  451280 / 025590  0005264222301768677  6506  15/11/21  09:06:08  PMT SA          1227160266              40,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01002107  451343 / 026122  0005264222301768677  6673  15/11/21  09:07:03  PMT SA          1227160266              35,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01002107  451405 / 026703  0005264222301768677  6848  15/11/21  09:08:03  PMT SA          1227160266              30,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001914  451698 / 029148  0001946902590011088  7677  15/11/21  09:12:17  PMT SA          0707571574             490,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000875  452347 / 001965  0005198930440042421  9545  15/11/21  09:21:36  PMT SA          1231057796              80,000      51        INSUFFICIENT FUNDS       CUST       I  808               
+   01000442  455870 / 001785  0005178632430124383  0042  15/11/21  10:13:43  PMT SA          1274559810              70,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001695  458018 / 021199  0005264220953170366  6227  15/11/21  10:43:31  PMT SA          0909789945              98,555      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001268  460175 / 009612  0005264220194072520  2510  15/11/21  11:14:47  PMT SA          1251688060              30,000      51        INSUFFICIENT FUNDS       CUST       I  1251688060        
+   01002051  461572 / 024540  0005264222441228707  6553  15/11/21  11:37:21  PMT SA          1230639785          11,500,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01001118  463234 / 010146  0001946341810329899  1486  15/11/21  12:05:04  PMT SA          1237663199          17,800,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000586  467493 / 029364  0001946901800039384  4712  15/11/21  13:21:00  PMT CA          0833016729              50,000      52        NO CHECKING ACCOUNT      CUST       -                    
+   01000586  467534 / 029842  0001946901800039384  4827  15/11/21  13:21:38  PMT CA          0833016729              50,000      52        NO CHECKING ACCOUNT      CUST       -                    
+   01000586  467556 / 030073  0001946901800039384  4886  15/11/21  13:21:57  PMT CA          0833016729              50,000      52        NO CHECKING ACCOUNT      CUST       -                    
+   01000500  469660 / 023294  0005264220953556960  1385  15/11/21  14:02:28  PMT SA          1207919319              50,000      05        DO NOT HONOUR            TECH       I  009               
+   01000254  469739 / 024154  0005264222513958165  1587  15/11/21  14:03:43  PMT SA          1274559810             140,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000254  469774 / 024722  0005264222513958165  1691  15/11/21  14:04:33  PMT SA          1274559810             120,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000431  470195 / 031099  0005198932850228771  3166  15/11/21  14:14:08  PMT SA    9880065811172500           6,752,664      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001623  471827 / 020295  0001946341300141903  8160  15/11/21  14:46:04  PMT SA          0971762384             200,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001213  473662 / 010758  0001946841230566277  3495  15/11/21  15:22:06  PMT SA          1183596822           1,300,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01001213  473698 / 011154  0001946841230566277  3614  15/11/21  15:22:46  PMT SA          1183596822           1,000,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01002249  475907 / 003749  0005264220103208371  0653  15/11/21  16:03:24  PMT SA          1144394210              50,000      51        INSUFFICIENT FUNDS       CUST       I  0091144394210     
+   01000583  478095 / 023901  0005371762280207858  7337  15/11/21  16:35:15  PMT SA          1295645955             500,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001669  478728 / 029508  0005264220531029092  9181  15/11/21  16:43:46  PMT SA           447783130             500,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000385  479642 / 003936  0001946343110081220  1821  15/11/21  16:55:27  PMT SA          1231114768              25,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001417  481767 / 021349  0001946341820078650  8518  15/11/21  17:22:40  PMT SA          1175368987              20,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000363  482373 / 025742  0005264221250752567  0343  15/11/21  17:30:13  PMT SA          1168470988             200,000      55        INCORRECT PIN            CUST       I                    
+   01000363  482394 / 025888  0005264221250752567  0395  15/11/21  17:30:25  PMT SA          1168470988             200,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000490  483280 / 032680  0005371763110468256  2917  15/11/21  17:41:39  PMT SA          0631833491          29,200,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000490  483431 / 001392  0005371763110468256  3393  15/11/21  17:44:01  PMT SA          0631833491           9,200,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000490  483670 / 003337  0005371763110468256  4110  15/11/21  17:47:21  PMT SA          0631833491           9,200,000      55        INCORRECT PIN            CUST       I                    
+   01000490  483694 / 003485  0005371763110468256  4165  15/11/21  17:47:38  PMT SA          0631833491           9,200,000      61        EXCDS WITHDRAWAL LIMIT   CUST       I                    
+   01000686  484892 / 015507  0005264222272311374  7473  15/11/21  18:08:36  PMT SA          1208308933              40,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000686  484952 / 016258  0005264222272311374  7685  15/11/21  18:09:55  PMT SA          1208308933              30,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000511  486162 / 026736  0005264220243637380  1281  15/11/21  18:27:10  PMT SA          0257008100           1,000,000      05        DO NOT HONOUR            TECH       I                    
+   01001515  487396 / 002858  0001946341790232717  5183  15/11/21  18:41:22  PMT SA    8578895051816977           1,350,000      30        MSG FORMAT ERROR         TECH       I                    
+   01001515  487741 / 005065  0001946341790232717  6119  15/11/21  18:44:43  PMT SA    8578895051816977           1,350,000      30        MSG FORMAT ERROR         TECH       I                    
+   01001484  487802 / 005417  0001946340610213147  6273  15/11/21  18:45:17  PMT SA          0399144674              50,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01002150  487997 / 006706  0001946341810533938  6862  15/11/21  18:47:17  PMT SA          1290870097              99,000      51        INSUFFICIENT FUNDS       CUST       I  70000             
+   01001914  490209 / 022797  0001946342510169726  3419  15/11/21  19:12:43  PMT SA          0646214000           1,200,000      51        INSUFFICIENT FUNDS       CUST       I  000               
+   01001370  491893 / 003024  0005264221461012991  8677  15/11/21  19:34:29  PMT SA          1223060550           1,000,000      05        DO NOT HONOUR            TECH       I                    
+   01001771  492154 / 005110  0005264222693006926  9557  15/11/21  19:38:06  PMT SA          0806023874              60,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001325  493657 / 016319  0005371761460178764  4064  15/11/21  19:57:25  PMT SA          0645270699             100,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                        48 TRANSACTIONS, PAGE TOTAL                             104,980,585
+
+PAGE:  32                                             PT. ALTO NETWORK                                   DATE: 16/11/21
+REPORT ID: DNLDT02A                                   REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER          TIME: 07:01:09
+
+SETTLEMENT DATE        : 15/11/21
+ISSUER F.I. NO.        : (1107) BNI
+BENEFICIARY F.I. NO.   : (1107) BNI
+
+   TERM      TRACE NUMBER     CARD ACCOUNT         RCPT  RCPT      RECEIPT   TRAN    TO                  AMOUNT                RESP  REJC  DESCRIPT                REJC   RJ FEE  REFERENCE
+   NO.       ACQ / SWT        NUMBER               NBR   DATE      TIME      TYPE    ACCOUNT             TRANSFER              CODE  CODE  CODE                    CLASS  DUE TO  NUMBER
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+   01001325  493971 / 018815  0005371761460178764  5050  15/11/21  20:02:06  PMT SA          0645270699              93,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01001325  494091 / 019807  0005371761460178764  5389  15/11/21  20:03:47  PMT SA          0645270699              90,000      51        INSUFFICIENT FUNDS       CUST       I                    
+   01000929  497675 / 000666  0005264221310504321  5732  15/11/21  21:41:29  PMT SA          0800022832           6,850,000      55        INCORRECT PIN            CUST       I                    
+   --------  ---------------  -------------------  ----  --------  --------  ------  ------------------  --------------------  ----  ----  ----------------------  -----  ------  ------------------
+                                                         3 TRANSACTIONS, PAGE TOTAL                               7,033,000
+                                                        51 TRANSACTIONS, BANK TOTAL                             112,013,585
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   BANK TOTAL REJECTED TXN CLASS   CUST :   46   PROC :     0   TECH :     5   CUST-CAPT :     0   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+                                                       330 TRANSACTIONS, GRAND TOTAL                            773,686,924
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   GRAND TOTAL REJECTED TXN CLASS  CUST :  293   PROC :     0   TECH :    35   CUST-CAPT :     2   PROC-CAPT : 0
+   ---------------------------------------------------------------------------------------------------------------------------------------
+Note :   The number of CUST-CAPT (Customer Captured Card) is included in the number of CUST (Customer Rejected).
+         The number of PROC-CAPT (Procedural Captured Card) is included in the number of PROC (Procedural Rejected).
+
+
+                  ** ** ** ** ** END OF REJECTED TRANSFER TRANSACTION LISTING AS ACQUIRER REPORT FOR ATMI ** ** ** ** **
