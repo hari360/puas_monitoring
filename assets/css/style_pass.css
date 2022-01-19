@@ -1,0 +1,53 @@
+.field-icon {
+    float: right;
+    margin-left: -20px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+  }
+
+  .field-icon-o {
+    float: right;
+    margin-left: 120px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 50;
+    cursor: pointer;
+  }
+
+  .field-icon-n {
+    float: right;
+    margin-left: 120px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 50;
+    cursor: pointer;
+  }
+
+  .field-icon-n-c {
+    float: right;
+    margin-left: 120px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 50;
+    cursor: pointer;
+  }
+
+  .field-icon-conf {
+    float: right;
+    margin-left: -20px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+  }
+
+  .field-icon-log {
+    float: right;
+    margin-left: -20px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+  }
