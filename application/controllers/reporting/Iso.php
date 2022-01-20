@@ -259,11 +259,11 @@ class Iso extends MY_Controller
 
 
     $data = array(
-      'title'               => 'ISO Reporting',
+      'title'               => 'Reporting',
       'header_view'         => 'header_view',
       'content_view'        => 'report/reportiso',
-      'sub_header_title'    => 'Report ISO',
-      'header_title'        => 'Generate Report ISO',
+      'sub_header_title'    => 'Report',
+      'header_title'        => 'Generate Report',
       'username'            => $this->session->userdata('logged_full_name'),
       'lastlogin'           => $this->session->userdata('logged_last_login'),
       'list_terminal'       => $all_terminal,

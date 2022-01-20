@@ -33,7 +33,7 @@
         <h5 class="modal-title" id="v_title_accounts"></h5>
       </div>
       <div class="modal-body form" style="border: 0px solid red;padding-top: 0px">
-      <div class="loader" id="loader_process"><div class="m-t-30"><img class="zmdi-hc-spin" src="/new_web_monitoring_atmi/assets/images/loader.svg" width="48" height="48" alt="Aero"></div><p>Processing...</p></div>
+      <div class="loader" id="loader_process"><div class="m-t-30"><img class="zmdi-hc-spin" src="<?php echo base_url() ?>assets/images/loader.svg" width="48" height="48" alt="Aero"></div><p>Processing...</p></div>
         <form action="#" id="form_accounts" class="form-horizontal">
           <input type="hidden" value="" name="id" />
           <div class="form-body">

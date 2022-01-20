@@ -17,7 +17,7 @@ class Sendmail
     {
         $this->CI = &get_instance();
         $this->CI->load->database();
-        $this->CI->load->model('Postgre_model', '', TRUE);
+        
         log_message('Debug', 'PHPMailer class is loaded.');
     }
 

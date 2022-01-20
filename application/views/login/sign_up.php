@@ -9,9 +9,9 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
 
-    <title>Sign In Monitoring ATMI</title>
+    <title>Sign Up</title>
     <!-- Favicon-->
-    <link rel="icon" href="<?php echo base_url() ?>assets/images/logo-title-alto.ico" type="image/x-icon">
+    <link rel="icon" href="<?php echo base_url() ?>assets/images/logo-title-purwantara.ico" type="image/x-icon">
     <!-- Custom Css -->
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/style.min.css">
@@ -35,8 +35,8 @@
                     ?>
                     <!-- <form class="card auth_form"> -->
                     <div class="header">
-                        <img class="logo" src="<?php echo base_url() ?>assets/images/logo-alto.png" alt="">
-                        <h5>Terminal Monitoring ATMI</h5>
+                        <img class="logo" src="<?php echo base_url() ?>assets/images/logo-purwantara.png" alt="">
+                        <h5>Monitoring And Reporting</h5>
                     </div>
                     <div class="body">
 

@@ -18,7 +18,7 @@ $(function () {
 
     var url;
     url = baseURL + "postilion/ajaxcontroller/get_query_trx";
-    alert(url);
+    // alert(url);
 
     var table_tran_type = $('#dt_query_trx').DataTable({
         iDisplayLength:10,

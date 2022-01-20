@@ -9,7 +9,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
     <title><?php echo $title; ?></title>
-    <link rel="icon" href="<?php echo base_url() ?>assets/images/logo-title-alto.ico" type="image/x-icon"> <!-- Favicon-->
+    <link rel="icon" href="<?php echo base_url() ?>assets/images/logo-title-purwantara.ico" type="image/x-icon"> <!-- Favicon-->
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/plugins/jvectormap/jquery-jvectormap-2.0.3.min.css" />
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/plugins/charts-c3/plugin.css" />
@@ -96,7 +96,7 @@
     <!-- Page Loader -->
     <div class="page-loader-wrapper">
         <div class="loader">
-            <div class="m-t-30"><img src="<?php echo base_url() ?>assets/images/loading-62.gif" width="100" height="130" alt="Aero"></div>
+        <div class="m-t-30"><img class="zmdi-hc-spin" src="<?php echo base_url() ?>assets/images/loader.svg" width="48" height="48" alt="Aero"></div>
             <p>Please wait...</p>
         </div>
     </div>
@@ -104,7 +104,7 @@
     <aside id="leftsidebar" class="sidebar">
         <div class="navbar-brand">
             <button class="btn-menu ls-toggle-btn" type="button"><i class="zmdi zmdi-menu"></i></button>
-            <a href="index.html"><img src="<?php echo base_url() ?>assets/images/logo-atmi.png" height="30" width="70" alt="ATMI"><span class="m-l-10">Monitoring</span></a>
+            <a href="index.html"><img src="<?php echo base_url() ?>assets/images/logo-purwantara.png" height="30" width="30" alt="Purwantara"><span class="m-l-10">Monitoring</span></a>
         </div>
         <div class="menu">
             <ul class="list">
@@ -125,39 +125,6 @@
                 <!-- <li><a href="<?php echo base_url(); ?>chart/statistic"><i class="zmdi zmdi-chart"></i><span>Statistic</span></a></li> -->
 
                 <?php
-                $close_bracket = '';
-                $i = 0;
-                foreach ($this->session->userdata('list_access_menu') as $get_menu_ptpr) {
-                    if ($get_menu_ptpr[0] == 'PTPR') {
-                        if ($i == 0) {
-                            echo '<li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-camera-alt"></i><span>CRM PTPR</span></a>
-                                            <ul class="ml-menu">';
-                            $close_bracket = '</ul></li>';
-                        }
-                        switch ($get_menu_ptpr[1]) {
-                            case "Dashboard PTPR":
-                                echo '<li><a href="' . base_url() . 'ptpr/dashboard">' . 'Dashboard CRM' . '</a></li>';
-                                break;
-                            case "Register Bank Sponsor":
-                                echo '<li><a href="' . base_url() . 'ptpr/register">' . $get_menu_ptpr[1] . '</a></li>';
-                                break;
-                            case "Request Topup":
-                                echo '<li><a href="' . base_url() . 'ptpr/topup">' . $get_menu_ptpr[1] . '</a></li>';
-                                break;
-                            case "Package Mangement":
-                                echo '<li><a href="' . base_url() . 'ptpr/listpackage">' . $get_menu_ptpr[1] . '</a></li>';
-                                break;
-                            case "Register Member":
-                                echo '<li><a href="' . base_url() . 'ptpr/registermember">' . $get_menu_ptpr[1] . '</a></li>';
-                                break;
-                        }
-                        $i++;
-                    }
-                }
-                echo $close_bracket;
-
-
-                // <?php
                 $close_bracket = '';
                 $i = 0;
                 foreach ($this->session->userdata('list_access_menu') as $get_menu_home) {

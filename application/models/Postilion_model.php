@@ -438,7 +438,7 @@ class Postilion_model extends CI_Model {
     }
 
     function get_summary_query_trx($datefrom, $dateto, $batch_nr, $tran_type,$issuer_name,$benef_name,$sink_node_name,$pan,$rrn,$prefix_term,$terminal_id,$response_code,$show_records){
-        $query = $this->db->query(sprintf("exec iso_get_sum_query_transactions '%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s'", $datefrom, $dateto, $batch_nr, $tran_type,$issuer_name,$benef_name,$sink_node_name,$pan,$rrn,$prefix_term,$terminal_id,$response_code,$show_records));
+        $query = $this->db->query(sprintf("exec iso_get_sum_query_transactions '%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s'", $datefrom, $dateto, $batch_nr, $tran_type,$sink_node_name,$pan,$rrn,$prefix_term,$terminal_id,$response_code,$show_records));
 
         $test = $this->db->last_query();
         // die();
