@@ -98,12 +98,12 @@
 
                                                             <input type="hidden" class="form-control" name="terminal_spesified" id="txt_terminal">
 
-                                                            <p><strong>Select specified terminal</strong></p>
+                                                            <!-- <p><strong>Select specified terminal</strong></p>
                                                             <select id="optgroupreport" class="ms" multiple="multiple">
                                                                 <?= $list_terminal; ?>
-                                                            </select>
+                                                            </select> -->
 
-                                                            <p></p>
+                                                            <!-- <p></p> -->
                                                             <div class="row clearfix">
                                                                 <div class="col-md-6">
                                                                     <div class="mb-3">

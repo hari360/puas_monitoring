@@ -9,6 +9,7 @@ class Iso extends MY_Controller
     $this->load->model('Accounts_model', '', TRUE);
     $this->load->model('Postilion_model', '', TRUE);
     $this->load->library('reporttxt/wdl/acqapproved');
+    $this->load->library('reporttxt/wdl/issapproved');
   }
 
   // function stringInsert($str, $insertstr, $pos)
@@ -67,6 +68,7 @@ class Iso extends MY_Controller
   {
 
     $this->acqapproved->wdl_detail_approved('BJB');
+    $this->issapproved->wdl_detail_approved('BJB');
 
     
     $terminal_cardbase = $this->Postilion_model->get_iso_terminal('010');
