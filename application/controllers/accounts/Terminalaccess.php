@@ -12,6 +12,12 @@ class Terminalaccess extends MY_Controller
     $this->load->model('Postilion_model', '', TRUE);
   }
 
+  function get_full_name_user()
+  {
+    $data = $this->Accounts_model->get_full_name($this->input->get('user_id'));
+    echo json_encode($data);
+  }
+
   public function upload_excel()
   {
     $config = array(

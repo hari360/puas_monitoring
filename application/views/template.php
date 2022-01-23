@@ -293,7 +293,7 @@
                             $close_bracket = '</ul></li>';
                         }
                         switch ($get_menu_home[1]) {
-                            case "Generate Report ISO":
+                            case "Generate Report":
                                 echo '<li><a href="' . base_url() . 'reporting/iso">' . $get_menu_home[1] . '</a></li>';
                                 break;
                             case "Query Transactions":

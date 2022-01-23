@@ -45,6 +45,14 @@ $(function () {
         selectableOptgroup: true,
       });
 
+      $('#optgroupreport').multiSelect({
+        selectableHeader: "<div class='custom-header'>Terminal ID</div>",
+        selectionHeader: "<div class='custom-header'>Selected Terminal</div>",
+        // selectableFooter: "<div class='custom-header'>Selectable footer</div>",
+        // selectionFooter: "<div class='custom-header'>Selection footer</div>",
+        selectableOptgroup: true,
+      });
+
     //noUISlider
     var sliderBasic = document.getElementById('nouislider_basic_example');
     noUiSlider.create(sliderBasic, {

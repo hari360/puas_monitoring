@@ -4,12 +4,11 @@
         <div class="col-lg-12">
             <div class="card">
                 <ul class="nav nav-tabs pl-0 pr-0">
-                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#list_view"><i class="zmdi zmdi-view-carousel"></i> Prefix (010) </a></li>
-                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#grid_view"><i class="zmdi zmdi-view-dashboard"></i> Prefix (041)</a></li>
-                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#ptpr"><i class="zmdi zmdi-view-dashboard"></i> Prefix (042)</a></li>
+                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tab_atm"><i class="zmdi zmdi-view-carousel"></i> ATM </a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab_crm"><i class="zmdi zmdi-view-dashboard"></i> CRM</a></li>
                 </ul>
                 <div class="tab-content">
-                    <div class="tab-pane active" id="list_view">
+                    <div class="tab-pane active" id="tab_atm">
                         <div class="container-fluid">
                             <div class="row clearfix">
                                 <div class="col-lg-3 col-md-6 col-sm-12">
@@ -97,7 +96,7 @@
                         </div>
                     </div>
 
-                    <div class="tab-pane file_manager" id="grid_view">
+                    <div class="tab-pane file_manager" id="tab_crm">
                         <div class="container-fluid">
                             <div class="row clearfix">
                                 <div class="col-lg-3 col-md-6">
@@ -188,81 +187,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="tab-pane file_manager" id="ptpr">
-                        <div class="container-fluid">
-                            <div class="row clearfix">
-                                <div class="col-lg-3 col-md-6">
-                                    <div class="card big_icon allterminal">
-                                        <div class="body" style="background: rgb(34,193,195);
-                                                            background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,154,253,0.9612219887955182) 100%);">
-                                                                                                        <h4 class="mt-0 mb-0"><?php echo $all_terminal_ptpr; ?></h4>
-                                                                                                        <p class="mb-0">All Terminal</p>
-                                                                                                        <hr />
-                                                                                                        <a href="<?php echo base_url(); ?>crm/monitoring/" style="color:white"><small>Details</small></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                                                                                <div class="card widget_2 big_icon offline">
-                                                                                                    <div class="body" style="background: rgb(195,34,116);
-                                                            background: linear-gradient(0deg, rgba(195,34,116,1) 0%, rgba(253,45,45,0.9612219887955182) 100%);">
-                                                                                                        <h6 style="color:black">OFFLINE</h6>
-                                                                                                        <h2 style="color:black"><?php echo $offline_ptpr; ?></h2>
-                                                                                                        <hr />
-                                                                                                        <a href="<?php echo base_url(); ?>offline/detail/1" style="color:white"><small>Details</small></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                                                                                <div class="card widget_2 big_icon tutup">
-                                                                                                    <div class="body" style="background: rgb(195,34,116);
-                                                            background: linear-gradient(0deg, rgba(195,34,116,1) 0%, rgba(69,45,253,0.9612219887955182) 37%);">
-                                                                                                        <h6 style="color:black">CLOSE</h6>
-                                                                                                        <h2 style="color:black"><?php echo $close_ptpr; ?></h2>
-                                                                                                        <hr />
-                                                                                                        <a href="<?php echo base_url(); ?>offline/detail/2" style="color:white"><small>Details</small></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                                                                                <div class="card widget_2 big_icon inservice">
-                                                                                                    <div class="body" style="background: rgb(195,136,34);
-                                                            background: linear-gradient(0deg, rgba(195,136,34,1) 0%, rgba(84,253,45,1) 100%);">
-                                                                                                        <h6 style="color:black">IN SERVICE</h6>
-                                                                                                        <h2 style="color:black"><?php echo $inservice_ptpr; ?></h2>
-                                                                                                        <hr />
-                                                                                                        <a href="<?php echo base_url(); ?>offline/detail/3" style="color:white"><small>Details</small></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                                                                                <div class="card widget_2 big_icon cardretain">
-                                                                                                    <div class="body" style="background: rgb(195,34,194);
-                                                            background: linear-gradient(0deg, rgba(195,34,194,1) 0%, rgba(181,45,253,1) 100%);">
-                                                                                                        <h6 style="color:black">CARD RETAIN</h6>
-                                                                                                        <h2 style="color:black"><?php echo $cardretain_ptpr; ?></h2>
-                                                                                                        <hr />
-                                                                                                        <a href="<?php echo base_url(); ?>atm/cardretain" style="color:white"><small>Details</small></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                                                                                <div class="card widget_2 big_icon faulty">
-                                                                                                    <div class="body" style="background: rgb(195,34,34);
-                                                            background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(253,191,45,1) 100%);">
-                                            <h6 style="color:black">FAULTY</h6>
-                                            <h2 style="color:black"><?php echo $faulty_ptpr; ?></h2>
-                                            <hr />
-                                            <a href="<?php echo base_url(); ?>offline/detail/4" style="color:white"><small>Details</small></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
             </div>
         </div>

@@ -166,6 +166,19 @@ class Accounts_model extends CI_Model
         return $this->db->get()->row();
     }
 
+    function get_full_name($user_id){
+        $query = $this->db->get_where('iso_users', array('user_name' => $user_id));
+        if ($query)
+        {
+            return $query->result();
+        }
+        else
+        {
+            $error_query = $this->db->error(); 
+            return FALSE;
+        }
+    }
+
     function get_data_user_register($user_id){
         return $this->db->get_where('iso_users', 
             array('user_name' => $user_id))->result();

@@ -60,4 +60,6 @@ $config['admin_view'] = "admin/";
 $config['global_dir'] = "\\\\10.9.11.33\\rcs$\\Folder HARI\\Verifikasi New Report ISO\\";
 // $config['global_dir'] = "\\\\10.9.11.33\\rcs$\\ISO\\Settlement ISO\\";
 // $config['global_dir'] = "E:\\Temporary\\Report ISO\\Temp\\";
+$config['global_dir_rpt'] = "C:\\xampp\\htdocs\\puas_monitoring\\output_reporting\\";
+
 ?>
