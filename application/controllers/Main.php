@@ -87,6 +87,7 @@ class Main extends MY_Controller
       'header_view'         => 'header_view',
       'content_view'        => 'home/dashboard',
       'sub_header_title'    => '',
+      'parent_menu'         => 'Dashboard',
       'header_title'        => 'DASHBOARD',
       'username'            => $this->session->userdata('logged_full_name'),
       'lastlogin'           => $this->session->userdata('logged_last_login'),

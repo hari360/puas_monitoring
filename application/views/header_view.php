@@ -4,8 +4,8 @@
                 <h2><?php echo isset($header_title) ? $header_title : '';?></h2>
                 <p></p>
                 <ul class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html"><i class="zmdi zmdi-home"></i> ATMI</a></li>
-                    <li class="breadcrumb-item active"><?php echo isset($sub_header_title) ? $sub_header_title : '';?></li>
+                    <li class="breadcrumb-item"><?= $parent_menu; ?></li>
+                    
                 </ul>
                 <button class="btn btn-primary btn-icon mobile_menu" type="button"><i class="zmdi zmdi-sort-amount-desc"></i></button>
             </div>
