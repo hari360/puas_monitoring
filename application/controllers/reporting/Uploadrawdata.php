@@ -224,9 +224,99 @@ class Uploadrawdata extends MY_Controller
                 $r->kode,
                 $r->agent,
                 $r->jenis,
-                $r->nominal,
-                $r->admin_fee,
-                $r->total_price,
+                number_format($r->nominal),
+                number_format($r->admin_fee),
+                number_format($r->total_price),
+                $r->status,
+                $r->date_time,
+                $r->date_insert,
+                $r->file_name,
+            );
+        }
+        $result = array(
+            "draw" => $draw,
+            "data" => $data
+        );
+        echo json_encode($result);
+        exit();
+    }
+
+    function get_data_transaksi_ppob()
+    {
+        header('Content-Type: application/json');
+        $draw = intval($this->input->get("draw"));
+
+        $query = $this->upload_model->get_data_trx_ppob();
+        $no = 1;
+        $data = [];
+        foreach ($query as $r) {
+            $data[] = array(
+                $r->kode,
+                $r->agent,
+                $r->jenis,
+                number_format($r->nominal),
+                number_format($r->admin_fee),
+                number_format($r->total_price),
+                $r->status,
+                $r->date_time,
+                $r->date_insert,
+                $r->file_name,
+            );
+        }
+        $result = array(
+            "draw" => $draw,
+            "data" => $data
+        );
+        echo json_encode($result);
+        exit();
+    }
+
+    function get_data_transaksi_setor_tarik()
+    {
+        header('Content-Type: application/json');
+        $draw = intval($this->input->get("draw"));
+
+        $query = $this->upload_model->get_data_trx_setor_tarik();
+        $no = 1;
+        $data = [];
+        foreach ($query as $r) {
+            $data[] = array(
+                $r->kode,
+                $r->agent,
+                $r->jenis,
+                number_format($r->nominal),
+                number_format($r->admin_fee),
+                number_format($r->total_price),
+                $r->status,
+                $r->date_time,
+                $r->date_insert,
+                $r->file_name,
+            );
+        }
+        $result = array(
+            "draw" => $draw,
+            "data" => $data
+        );
+        echo json_encode($result);
+        exit();
+    }
+
+    function get_data_transaksi_transfer()
+    {
+        header('Content-Type: application/json');
+        $draw = intval($this->input->get("draw"));
+
+        $query = $this->upload_model->get_data_trx_transfer();
+        $no = 1;
+        $data = [];
+        foreach ($query as $r) {
+            $data[] = array(
+                $r->kode,
+                $r->agent,
+                $r->jenis,
+                number_format($r->nominal),
+                number_format($r->admin_fee),
+                number_format($r->total_price),
                 $r->status,
                 $r->date_time,
                 $r->date_insert,

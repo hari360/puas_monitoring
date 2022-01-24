@@ -96,6 +96,60 @@ $(document).ready(function () {
         },
     });
 
+    var url_ppob;
+    url_ppob = baseURL + "reporting/uploadrawdata/get_data_transaksi_ppob";
+
+    $('#dt_history_ppob').DataTable({
+        iDisplayLength: 50,
+        processing: true,
+        searching: true,
+        "order": [[1, "desc"]],
+        ajax: {
+            url: url_ppob,
+            type: 'GET'
+        },
+        language: {
+            "processing": '<div class="loader"><div class="m-t-30"><img class="zmdi-hc-spin" src="' + baseURL + 'assets/images/loader.svg" width="48" height="48" alt="Aero"></div><p>Processing...</p></div>'
+
+        },
+    });
+
+    var url_setor_tarik;
+    url_setor_tarik = baseURL + "reporting/uploadrawdata/get_data_transaksi_setor_tarik";
+
+    $('#dt_history_setor_tarik').DataTable({
+        iDisplayLength: 50,
+        processing: true,
+        searching: true,
+        "order": [[1, "desc"]],
+        ajax: {
+            url: url_setor_tarik,
+            type: 'GET'
+        },
+        language: {
+            "processing": '<div class="loader"><div class="m-t-30"><img class="zmdi-hc-spin" src="' + baseURL + 'assets/images/loader.svg" width="48" height="48" alt="Aero"></div><p>Processing...</p></div>'
+
+        },
+    });
+
+    var url_transfer;
+    url_transfer = baseURL + "reporting/uploadrawdata/get_data_transaksi_transfer";
+
+    $('#dt_history_transfer').DataTable({
+        iDisplayLength: 50,
+        processing: true,
+        searching: true,
+        "order": [[1, "desc"]],
+        ajax: {
+            url: url_transfer,
+            type: 'GET'
+        },
+        language: {
+            "processing": '<div class="loader"><div class="m-t-30"><img class="zmdi-hc-spin" src="' + baseURL + 'assets/images/loader.svg" width="48" height="48" alt="Aero"></div><p>Processing...</p></div>'
+
+        },
+    });
+
 
 
 

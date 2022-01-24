@@ -50,4 +50,34 @@ class Uploadrawdata_model extends CI_Model
         }
     }
 
+    function get_data_trx_ppob()
+    {
+        $query = $this->db->get('hijrah_transaksi_ppob');
+        if(!$query){
+            $error = $this->db->error();
+        }else{
+            return $query->result();
+        }
+    }
+
+    function get_data_trx_setor_tarik()
+    {
+        $query = $this->db->get('hijrah_transaksi_setor_tarik');
+        if(!$query){
+            $error = $this->db->error();
+        }else{
+            return $query->result();
+        }
+    }
+
+    function get_data_trx_transfer()
+    {
+        $query = $this->db->get('hijrah_transaksi_transfer');
+        if(!$query){
+            $error = $this->db->error();
+        }else{
+            return $query->result();
+        }
+    }
+
 }
