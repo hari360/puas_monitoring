@@ -54,6 +54,9 @@ $("#formupload").on('submit', function (e) {
             // $("#btn_show_table").trigger("click");
             $("#fileInput").val(null);
             $('#dt_history_upload').DataTable().ajax.reload();
+            $('#dt_history_ppob').DataTable().ajax.reload();
+            $('#dt_history_setor_tarik').DataTable().ajax.reload();
+            $('#dt_history_transfer').DataTable().ajax.reload();
         }
     })
 

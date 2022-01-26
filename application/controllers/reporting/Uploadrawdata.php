@@ -60,7 +60,21 @@ class Uploadrawdata extends MY_Controller
 
     function index()
     {
+        // $month = 'Jan';
+        // echo date('m', strtotime($month));
 
+        // echo substr("22 Jan 2022 17:40:15",12,8)."<br>";
+        // echo substr("22 Jan 2022 17:40:15",0,2)."<br>";
+        // echo substr("22 Jan 2022 17:40:15",3,3)."<br>";
+        // echo substr("22 Jan 2022 17:40:15",7,4)."<br>";
+        // die();
+//         $file_name = "Test";
+//         if(strpos($file_name, 'Deposit')){
+// echo "true";
+//         }else{
+//             echo "false";
+//         }
+//         die();
         $data = array(
             'title'               => 'Upload Raw Data',
             'header_view'         => 'header_view',
@@ -187,28 +201,159 @@ class Uploadrawdata extends MY_Controller
         $local = $now->setTimeZone(new DateTimeZone('Asia/Jakarta'));
         $data = array();
         $i = 0;
-        foreach ($sheetData as $t) {
-            // echo $i."---".$t[0]."-".$t[1]."-".$t[2]." <br>";
-            $i++;
-            if($t[1] != '' && $i > 2 ){
-                $data[] = array(
-                    'file_name'     => $file_name,
-                    'kode'          => $t[1],
-                    'agent'         => $t[2],
-                    'jenis'         => $t[3],
-                    'nominal'       => $t[4],
-                    'admin_fee'     => $t[5],
-                    'total_price'   => $t[6],
-                    'status'        => $t[7],
-                    'date_time'     => $t[8],
-                    'date_insert'   => date('Y-m-d H:i:s')
-                );
-            }
-            
-        }
+        
 
         // print_r($data);
-        $this->upload_model->insert_from_excel($data);
+        if(strpos($file_name, 'Deposit')){
+            foreach ($sheetData as $t) {
+                // echo $i."---".$t[0]."-".$t[1]."-".$t[2]." <br>";
+                $i++;
+                if($t[1] != '' && $i > 2 ){
+                    $data[] = array(
+                        'file_name'     => $file_name,
+                        'kode'          => $t[1],
+                        'agent'         => $t[2],
+                        'jenis'         => $t[3],
+                        'nominal'       => $t[4],
+                        'admin_fee'     => $t[5],
+                        'total_price'   => $t[6],
+                        'status'        => $t[7],
+                        'date_time'     => $t[8],
+                        'date_insert'   => date('Y-m-d H:i:s')
+                    );
+                }
+                
+            }
+
+            $this->upload_model->insert_from_excel_deposit($data);
+        }elseif(strpos($file_name, 'PPOB')){
+
+            foreach ($sheetData as $t) {
+                // echo $i."---".$t[0]."-".$t[1]."-".$t[2]." <br>";
+                $i++;
+                if($t[1] != '' && $i > 3 ){
+                    // echo substr("22 Jan 2022 17:40:15",12,8)."<br>";
+        // echo substr("22 Jan 2022 17:40:15",0,2)."<br>";
+        // echo substr("22 Jan 2022 17:40:15",3,3)."<br>";
+        // echo substr("22 Jan 2022 17:40:15",7,4)."<br>";
+                    $year = substr($t[1],7,4);
+                    $number_month = substr($t[1],3,3);
+                    $day = substr($t[1],0,2);
+                    $waktu = substr($t[1],12,8);
+
+                    // $tanggal = substr($t[1],7,4).'-'.date('m', strtotime($number_month)).'-'.substr($t[1],2).' '.substr($t[1],12,8);
+                    $tanggal = $year.'-'.date('m', strtotime($number_month)).'-'.$day.' '.$waktu;
+                    $data[] = array(
+                        'file_name'         => $file_name,
+                        'tanggal'           => $tanggal,
+                        'kode'              => $t[2],
+                        'agent'             => $t[3],
+                        'pelanggan'         => $t[4],
+                        'type'              => $t[5],
+                        'nominal_loket'     => trim(str_replace(".","",$t[6])),
+                        'price_loket'       => trim(str_replace(".","",$t[7])),
+                        'admin_fee_loket'   => trim(str_replace(".","",$t[8])),
+                        'diskon'            => trim(str_replace(".","",$t[9])),
+                        'total_price'       => trim(str_replace(".","",str_replace(".00","",$t[10]))),
+                        'price_mp'          => trim(str_replace(",","",str_replace(".00","",$t[11]))),
+                        // 'price_mp'          => trim(str_replace(".","",$t[11])),
+                        'selling_price_mp'  => trim(str_replace(".","",($t[12]=="" ? "0" : $t[12]))),
+                        'admin_fee_mp'      => trim(str_replace(".","",($t[12]=="" ? "0" : $t[13]))),
+                        'status'            => $t[14],
+                        // 'total_price'
+                        // 'date_insert'   => date('Y-m-d H:i:s')
+                    );
+                }
+                
+            }
+
+            $this->upload_model->insert_from_excel_ppob($data);
+        }elseif(strpos($file_name, 'Setor')){
+
+            foreach ($sheetData as $t) {
+                // echo $i."---".$t[0]."-".$t[1]."-".$t[2]." <br>";
+                $i++;
+                if($t[1] != '' && $i > 3 ){
+                    // echo substr("22 Jan 2022 17:40:15",12,8)."<br>";
+        // echo substr("22 Jan 2022 17:40:15",0,2)."<br>";
+        // echo substr("22 Jan 2022 17:40:15",3,3)."<br>";
+        // echo substr("22 Jan 2022 17:40:15",7,4)."<br>";
+                    $year = substr($t[1],7,4);
+                    $number_month = substr($t[1],3,3);
+                    $day = substr($t[1],0,2);
+                    $waktu = substr($t[1],12,8);
+
+                    // $tanggal = substr($t[1],7,4).'-'.date('m', strtotime($number_month)).'-'.substr($t[1],2).' '.substr($t[1],12,8);
+                    $tanggal = $year.'-'.date('m', strtotime($number_month)).'-'.$day.' '.$waktu;
+                    $data[] = array(
+                        
+                        'tanggal'            => $tanggal,
+                        'kode'               => $t[2],
+                        'agent'              => $t[3],
+                        'bank_penerima'      => $t[4],
+                        'rek_penerima'       => $t[5],
+                        'nama_penerima'      => $t[6],
+                        'nominal_hijrah'     => trim(str_replace(".","",$t[7])),
+                        'admin_fee_hijrah'   => trim(str_replace(".","",$t[8])),
+                        'total_price_hijrah' => trim(str_replace(".","",$t[9])),
+                        'status_hijrah'      => $t[10],
+                        'transfer_oy'        => $t[11],
+                        'admin_fee_oy'       => $t[12],
+                        'amount_oy'          => $t[13],
+                        'file_name'          => $file_name,
+                        'date_insert'        => date('Y-m-d H:i:s')
+                        // 'total_price'
+                        // 'date_insert'   => date('Y-m-d H:i:s')
+                    );
+                }
+                
+            }
+
+            $this->upload_model->insert_from_excel_setor_tarik($data);
+        }elseif(strpos($file_name, 'Transfer')){
+
+            foreach ($sheetData as $t) {
+                // echo $i."---".$t[0]."-".$t[1]."-".$t[2]." <br>";
+                $i++;
+                if($t[1] != '' && $i > 3 ){
+                    // echo substr("22 Jan 2022 17:40:15",12,8)."<br>";
+        // echo substr("22 Jan 2022 17:40:15",0,2)."<br>";
+        // echo substr("22 Jan 2022 17:40:15",3,3)."<br>";
+        // echo substr("22 Jan 2022 17:40:15",7,4)."<br>";
+                    $year = substr($t[1],7,4);
+                    $number_month = substr($t[1],3,3);
+                    $day = substr($t[1],0,2);
+                    $waktu = substr($t[1],12,8);
+
+                    // $tanggal = substr($t[1],7,4).'-'.date('m', strtotime($number_month)).'-'.substr($t[1],2).' '.substr($t[1],12,8);
+                    $tanggal = $year.'-'.date('m', strtotime($number_month)).'-'.$day.' '.$waktu;
+                    $data[] = array(
+                        
+                        'tanggal'            => $tanggal,
+                        'kode'               => $t[2],
+                        'agent'              => $t[3],
+                        'bank_penerima'      => $t[4],
+                        'rek_penerima'       => $t[5],
+                        'nama_penerima'      => $t[6],
+                        'nominal_hijrah'     => trim(str_replace(".","",$t[7])),
+                        'admin_fee_hijrah'   => trim(str_replace(".","",$t[8])),
+                        'total_price_hijrah' => trim(str_replace(".","",$t[9])),
+                        'status_hijrah'      => $t[10],
+                        'transfer_oy'        => $t[11],
+                        'admin_fee_oy'       => $t[12],
+                        'amount_oy'          => $t[13],
+                        'file_name'          => $file_name,
+                        'date_insert'        => date('Y-m-d H:i:s')
+                        // 'total_price'
+                        // 'date_insert'   => date('Y-m-d H:i:s')
+                    );
+                }
+                
+            }
+
+            $this->upload_model->insert_from_excel_transfer($data);
+        }
+        
     }
 
     function get_data_transaksi_deposit()
@@ -251,16 +396,21 @@ class Uploadrawdata extends MY_Controller
         $data = [];
         foreach ($query as $r) {
             $data[] = array(
+                $r->tanggal,
                 $r->kode,
                 $r->agent,
-                $r->jenis,
-                number_format($r->nominal),
-                number_format($r->admin_fee),
+                $r->pelanggan,
+                $r->type,
+                number_format($r->nominal_loket),
+                number_format($r->price_loket),
+                number_format($r->admin_fee_loket),
+                number_format($r->diskon),
                 number_format($r->total_price),
+                number_format($r->price_mp),
+                number_format($r->selling_price_mp),
+                number_format($r->admin_fee_mp),
                 $r->status,
-                $r->date_time,
-                $r->date_insert,
-                $r->file_name,
+                // $r->file_name,
             );
         }
         $result = array(
@@ -281,16 +431,21 @@ class Uploadrawdata extends MY_Controller
         $data = [];
         foreach ($query as $r) {
             $data[] = array(
+                $r->tanggal,
                 $r->kode,
                 $r->agent,
-                $r->jenis,
-                number_format($r->nominal),
-                number_format($r->admin_fee),
-                number_format($r->total_price),
-                $r->status,
-                $r->date_time,
-                $r->date_insert,
-                $r->file_name,
+                $r->bank_penerima,
+                $r->rek_penerima,
+                $r->nama_penerima,
+                number_format($r->nominal_hijrah),
+                number_format($r->admin_fee_hijrah),
+                number_format($r->total_price_hijrah),
+                $r->status_hijrah,
+                number_format($r->transfer_oy),
+                number_format($r->admin_fee_oy),
+                number_format($r->amount_oy),
+                // number_format($r->admin_fee_mp),
+                // $r->status,
             );
         }
         $result = array(
@@ -311,16 +466,19 @@ class Uploadrawdata extends MY_Controller
         $data = [];
         foreach ($query as $r) {
             $data[] = array(
+                $r->tanggal,
                 $r->kode,
                 $r->agent,
-                $r->jenis,
-                number_format($r->nominal),
-                number_format($r->admin_fee),
-                number_format($r->total_price),
-                $r->status,
-                $r->date_time,
-                $r->date_insert,
-                $r->file_name,
+                $r->bank_penerima,
+                $r->rek_penerima,
+                $r->nama_penerima,
+                number_format($r->nominal_hijrah),
+                number_format($r->admin_fee_hijrah),
+                number_format($r->total_price_hijrah),
+                $r->status_hijrah,
+                number_format($r->transfer_oy),
+                number_format($r->admin_fee_oy),
+                number_format($r->amount_oy),
             );
         }
         $result = array(

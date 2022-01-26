@@ -26,10 +26,52 @@ class Uploadrawdata_model extends CI_Model
         return $this->db->insert('iso_mon_terminal', $data);        
     }
 
-    function insert_from_excel($data)
+    function insert_from_excel_deposit($data)
     {
         
         $query = $this->db->insert_batch('hijrah_transaksi_deposit', $data);
+        if(!$query){
+            $error = $this->db->error();
+            return FALSE;
+        }else{
+            return TRUE;
+        }
+
+        // return $this->db->insert_id();
+    }
+
+    function insert_from_excel_ppob($data)
+    {
+        
+        $query = $this->db->insert_batch('hijrah_transaksi_ppob', $data);
+        if(!$query){
+            $error = $this->db->error();
+            return FALSE;
+        }else{
+            return TRUE;
+        }
+
+        // return $this->db->insert_id();
+    }
+
+    function insert_from_excel_setor_tarik($data)
+    {
+        
+        $query = $this->db->insert_batch('hijrah_transaksi_setor_tarik', $data);
+        if(!$query){
+            $error = $this->db->error();
+            return FALSE;
+        }else{
+            return TRUE;
+        }
+
+        // return $this->db->insert_id();
+    }
+
+    function insert_from_excel_transfer($data)
+    {
+        
+        $query = $this->db->insert_batch('hijrah_transaksi_transfer', $data);
         if(!$query){
             $error = $this->db->error();
             return FALSE;

@@ -96,23 +96,33 @@
                                     <div class="tab-pane file_manager" id="tab_ppob">
                                         <div class="container-fluid">
                                             <div class="row clearfix">
-                                            <div class="header">
+                                                <div class="header">
                                                     <h2><strong><i class="zmdi zmdi-chart"></i> Data</strong> Detail Transaksi PPOB</h2>
                                                 </div>
                                                 <div class="table-responsive" style="font-size: 12px;font-family:Arial, Helvetica, sans-serif;width:100%">
                                                     <table class="table table-bordered table-striped table-hover nowrap" id="dt_history_ppob" width="100%">
                                                         <thead>
                                                             <tr>
-                                                                <th>Kode</th>
-                                                                <th>Agent</th>
-                                                                <th>Jenis</th>
+                                                                <th rowspan="2">Tanggal</th>
+                                                                <th rowspan="2">Kode</th>
+                                                                <th rowspan="2">Agent</th>
+                                                                <th rowspan="2">Pelanggan</th>
+                                                                <th rowspan="2">Type</th>
+                                                                <th colspan="5" style="text-align: center;">Based on Hijrah Loket</th>
+                                                                <th colspan="3" style="text-align: center;">Based on MP</th>
+                                                                <th rowspan="2">Status</th>
+                                                            </tr>
+                                                            <tr>
+
+
                                                                 <th>Nominal</th>
+                                                                <th>Price</th>
                                                                 <th>Admin Fee</th>
+                                                                <th>Diskon</th>
                                                                 <th>Total Price</th>
-                                                                <th>Status</th>
-                                                                <th>Tanggal</th>
-                                                                <th>Date Upload</th>
-                                                                <th>File Name</th>
+                                                                <th>Price</th>
+                                                                <th>Selling Price</th>
+                                                                <th>Admin Fee</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
@@ -126,24 +136,36 @@
                                     <div class="tab-pane file_manager" id="tab_setor_tunai">
                                         <div class="container-fluid">
                                             <div class="row clearfix">
-                                            <div class="header">
+                                                <div class="header">
                                                     <h2><strong><i class="zmdi zmdi-chart"></i> Data</strong> Detail Transaksi Setor Tarik</h2>
                                                 </div>
                                                 <div class="table-responsive" style="font-size: 12px;font-family:Arial, Helvetica, sans-serif;width:100%">
                                                     <table class="table table-bordered table-striped table-hover nowrap" id="dt_history_setor_tarik" width="100%">
                                                         <thead>
+
                                                             <tr>
-                                                                <th>Kode</th>
-                                                                <th>Agent</th>
-                                                                <th>Jenis</th>
+                                                                <th rowspan="2">Tanggal</th>
+                                                                <th rowspan="2">Kode</th>
+                                                                <th rowspan="2">Agent</th>
+                                                                <th rowspan="2">Bank Penerima</th>
+                                                                <th rowspan="2">Rekening Penerima</th>
+                                                                <th rowspan="2">Nama Penerima</th>
+                                                                <th colspan="4" style="text-align: center;">Based on Back Office Hijrah</th>
+                                                                <th colspan="3" style="text-align: center;">Based on OY Hijrah</th>
+                                                                <!-- <th rowspan="2">Status</th> -->
+                                                            </tr>
+                                                            <tr>
+
+
                                                                 <th>Nominal</th>
                                                                 <th>Admin Fee</th>
                                                                 <th>Total Price</th>
                                                                 <th>Status</th>
-                                                                <th>Tanggal</th>
-                                                                <th>Date Upload</th>
-                                                                <th>File Name</th>
+                                                                <th>Transfer Amount</th>
+                                                                <th>Admin Fee</th>
+                                                                <th>Amount</th>
                                                             </tr>
+
                                                         </thead>
                                                         <tbody>
                                                         </tbody>
@@ -156,23 +178,33 @@
                                     <div class="tab-pane file_manager" id="tab_transfer">
                                         <div class="container-fluid">
                                             <div class="row clearfix">
-                                            <div class="header">
+                                                <div class="header">
                                                     <h2><strong><i class="zmdi zmdi-chart"></i> Data</strong> Detail Transaksi Transfer</h2>
                                                 </div>
                                                 <div class="table-responsive" style="font-size: 12px;font-family:Arial, Helvetica, sans-serif;width:100%">
                                                     <table class="table table-bordered table-striped table-hover nowrap" id="dt_history_transfer" width="100%">
                                                         <thead>
                                                             <tr>
-                                                                <th>Kode</th>
-                                                                <th>Agent</th>
-                                                                <th>Jenis</th>
+                                                                <th rowspan="2">Tanggal</th>
+                                                                <th rowspan="2">Kode</th>
+                                                                <th rowspan="2">Agent</th>
+                                                                <th rowspan="2">Bank Penerima</th>
+                                                                <th rowspan="2">Rekening Penerima</th>
+                                                                <th rowspan="2">Nama Penerima</th>
+                                                                <th colspan="4" style="text-align: center;">Based on Back Office Hijrah</th>
+                                                                <th colspan="3" style="text-align: center;">Based on OY Hijrah</th>
+                                                                <!-- <th rowspan="2">Status</th> -->
+                                                            </tr>
+                                                            <tr>
+
+
                                                                 <th>Nominal</th>
                                                                 <th>Admin Fee</th>
                                                                 <th>Total Price</th>
                                                                 <th>Status</th>
-                                                                <th>Tanggal</th>
-                                                                <th>Date Upload</th>
-                                                                <th>File Name</th>
+                                                                <th>Transfer Amount</th>
+                                                                <th>Admin Fee</th>
+                                                                <th>Amount</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
